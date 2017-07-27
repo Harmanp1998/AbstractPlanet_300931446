@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Date: July 27, 2017
  * Description: This is the abstract class Planet which other subclasses will
  * derive from.
- * Version: 0.3 - Added Public Properties
+ * Version: 0.4 - Added Constructor and Overridden ToString Method
  */
 namespace AbstractPlanet_300931446
 {
@@ -97,7 +97,31 @@ namespace AbstractPlanet_300931446
         }
 
         //Constructors
+        /// <summary>
+        /// This is the constructor for the Planet abstract class. 
+        /// It requires three parameter - name(string), diameter(double) and mass(double).
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        public Planet(string name, double diameter, double mass)
+        {
+            _name = name;
+            _diameter = diameter;
+            _mass = mass;
 
+        }
         //Public Methods
+        /// <summary>
+        /// Overridden the built-in ToString Method
+        /// </summary>
+        /// <returns>
+        /// string
+        /// </returns>
+        public override string ToString()
+        {
+            return string.Format(" Planet Name : {0} | Diameter : {1} | Mass : {2}", Name, Diameter, Mass);
+        }
+        
     }
 }
