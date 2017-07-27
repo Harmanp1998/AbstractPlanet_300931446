@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Date: July 27, 2017
  * Description: This is the abstract class Planet which other subclasses will
  * derive from.
- * Version: 0.1 - Class Created
+ * Version: 0.2 - Added Private Fields(Instance variables)
  */
 namespace AbstractPlanet_300931446
 {
@@ -19,10 +19,16 @@ namespace AbstractPlanet_300931446
     abstract class Planet
     {
         //Private Fields(Instance Variables)
-        
+        private double _diameter;
+        private double _mass;
+        private int _moonCount;
+        private string _name;
+        private double _orbitalPeriod;
+        private int _ringCount;
+        private double _rotationPeriod;
 
         //Public Properties
-        
+
         //Constructors
 
         //Public Methods
