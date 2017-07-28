@@ -16,7 +16,7 @@ namespace AbstractPlanet_300931446
     /// <summary>
     /// This is the abstract Class
     /// </summary>
-    abstract class Planet
+    public abstract class Planet
     {
         //Private Fields(Instance Variables)
         private double _diameter;
