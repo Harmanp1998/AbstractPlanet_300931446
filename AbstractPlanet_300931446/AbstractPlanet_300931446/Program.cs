@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * Name: Harmanpreet Singh
  * Date: July 28, 2017
  * Description: This is the main program
- * Version: 0.2 Implpemented TerrestrialPLanet and GiantPLanet in Driver class
+ * Version: 0.3 Added method WaitForAnyKey
  */
 namespace AbstractPlanet_300931446
 {
@@ -22,6 +22,11 @@ namespace AbstractPlanet_300931446
             TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Jupiter",304759,89435012,true);
             Console.WriteLine(terrestrialPlanet.ToString());
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++");
+            WaitForAnyKey();
+        }
+        public static void WaitForAnyKey()
+        {
+            Console.ReadKey();
         }
     }
 }
