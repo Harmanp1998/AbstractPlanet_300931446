@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 /*
  * Name: Harmanpreet Singh
  * Date: July 27, 2017
- * Description: This is an Interface that defines a method header HasMoons of bool return type.
- * Version: 0.1 - Created IHasMoons interface
+ * Description: This is an Interface that defines a method header HasRings of bool return type.
+ * Version: 0.1 - Created IHasRings interface
  */
 namespace AbstractPlanet_300931446
 {
     /// <summary>
-    /// This is IhasMoons Interface
+    /// This is the IHasRingsInterface
     /// </summary>
-    interface IHasMoons
+    interface IHasRings
     {
-        
-        bool HasMoons();
+        bool HasRings();
     }
 }
