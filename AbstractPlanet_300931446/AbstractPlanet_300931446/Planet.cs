@@ -120,7 +120,7 @@ namespace AbstractPlanet_300931446
         /// </returns>
         public override string ToString()
         {
-            return string.Format(" Planet Name : {0} | Diameter : {1} | Mass : {2}", Name, Diameter, Mass);
+            return string.Format(" Planet Name : {0} | Diameter : {1}km | Mass : {2}kg", Name, Diameter, Mass);
         }
         
     }

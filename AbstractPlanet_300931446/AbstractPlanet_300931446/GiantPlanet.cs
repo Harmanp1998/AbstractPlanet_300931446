@@ -18,6 +18,7 @@ namespace AbstractPlanet_300931446
         //Private Instance Variables
         private string _type;
 
+ 
         //CONSTRUCTOR----------------------------------------------------
         /// <summary>
         /// This is a GiantPlanet constructor that takes 4 arguments.
@@ -55,5 +56,9 @@ namespace AbstractPlanet_300931446
                 return false;
             }
         }
+    }
+
+    public class GIantPLanet
+    {
     }
 }
