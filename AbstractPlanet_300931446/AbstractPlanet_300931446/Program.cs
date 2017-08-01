@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 /*
  * Name: Harmanpreet Singh
+ * StudentID: 300931446
  * Date: July 28, 2017
  * Description: This is the main program
  * Version: 0.3 Added method WaitForAnyKey
